@@ -23,7 +23,7 @@ html {
 
 .laptop-width{
     max-width: 1366px;
-    background-color: #ff0000;
+    padding: 0 auto;
 }
 
 /* ---------------nav----------------- */
