@@ -269,7 +269,7 @@ html {
 }
 
 #section-tech-h {
-    height: 360px;
+    padding: 20px 0 60px 0;
 }
 
 .section-title-center {
@@ -335,70 +335,106 @@ html {
 
 
 /* ———————section 4 info——————— */
-#section-info{
+#section-info {
     background-color: #EECA80;
 }
 
-#section-info-h{
-    height: 730px;
+#section-info-h {
+    padding: 30px 0 80px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 300px;
 }
-#skill-container{
+    
+
+#info-card-area {
+    width: 320px;
+}
+
+.info-container {
     width: 342px;
+
 }
-.info-title{
+
+.info-title {
     font-size: 3.3em;
     font-family: 'Shrikhand';
     text-align: center;
-    padding-top: 30px;
+    padding-top: 50px;
+}
+
+#info-title-interest{
+    padding-top: 70px;
 }
 
 
-#skill-card-container{
+.info-card-container {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
-.info-card{
+.info-card {
     width: 80px;
     margin: 15px;
 }
 
-.info-card img{
+.info-card img {
     width: 80px;
 }
-.info-card p{    
+
+.info-card p {
     font-size: 0.8em;
     text-align: center;
     margin-top: 8px;
 }
 
-
-
-
-
-
-
-
-/*-------------footer----------------*/
-footer {
-    background-color: red;
+#info-text-area {
+    width: 320px;
 }
 
-/* -----@media !must in bottom!----- */
-@media(min-width:899px) {
-    #menu-verticle {
-        visibility: hidden;
-    }
+.info-title-text{
+    font-size: 3.3em;
+    font-family: 'Shrikhand';
+    padding-top: 50px;
+}
+.info-text-container{
+    padding-top: 8px;
+}
+.info-text-container aside{
+    padding-left: 60px;
+}
+.bold-text{
+    font-weight: bold;
 }
 
-@media (max-width:900px) {
-    #hamburger-img {
-        display: block;
+
+
+
+
+
+
+
+    /*-------------footer----------------*/
+    footer {
+        background-color: red;
     }
 
-    #menu-container {
-        display: none;
+    /* -----@media !must in bottom!----- */
+    @media(min-width:899px) {
+        #menu-verticle {
+            visibility: hidden;
+        }
     }
 
-}
+    @media (max-width:900px) {
+        #hamburger-img {
+            display: block;
+        }
+
+        #menu-container {
+            display: none;
+        }
+
+    }
