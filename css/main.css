@@ -109,7 +109,7 @@ html {
 
 }
 
-/* ———————section 1——————— */
+/* ———————section 1 Banner——————— */
 #banner {
     height: 640px;
     background-color: #F9F9F9;
@@ -238,19 +238,23 @@ html {
 #banner-link p {
     position: absolute;
     top: 400px;
-    left: 10%;
+    left: 14%;
 }
 
 #social-btn-container {
-    height: 50px;
-    width: 100px;
-    background-color: pink;
+    height: 60px;
     position: absolute;
     top: 420px;
     left: 20%;
 }
 
-#banner img {
+#social-btn-container img{
+    height: 50px;
+    margin-top: 8px;
+    margin-right: 8px;
+}
+
+#banner-selfpic {
     width: 35%;
     max-width: 500px;
     min-width: 400px;
@@ -259,17 +263,17 @@ html {
     right: 10%;
 }
 
-/* ———————section 2——————— */
-#section-kind{
+/* ———————section 2 What i can do——————— */
+#section-tech{
     height: 350px;
     background-color: #EECA80;
 }
 
-.section-title{
+.section-title-center{
     font-size: 3.3em;
     font-family: 'Shrikhand';
     text-align: center;
-    padding-top: 50px;
+    padding-top: 30px;
 }
 
 .my-tech-container{
@@ -294,33 +298,31 @@ html {
     margin-top: 8px;
 }
 
+/* ———————section 3 About me——————— */
 
-
-
-
-
-
-@-webkit-keyframes shiny-btn1 {
-    0% {
-        -webkit-transform: scale(0) rotate(45deg);
-        opacity: 0;
-    }
-
-    80% {
-        -webkit-transform: scale(0) rotate(45deg);
-        opacity: 0.5;
-    }
-
-    81% {
-        -webkit-transform: scale(4) rotate(45deg);
-        opacity: 1;
-    }
-
-    100% {
-        -webkit-transform: scale(50) rotate(45deg);
-        opacity: 0;
-    }
+#about-selfpic img{
+    height: 500px;
 }
+
+#about-content{
+    width: 450px;
+}
+
+#about-title{
+    font-size: 3.3em;
+    font-family: 'Shrikhand';
+}
+
+#about-text{
+
+}
+
+
+
+
+
+
+
 
 
 
