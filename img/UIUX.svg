@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #92b5aa;
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        stroke: #fff;
+        stroke-width: 8px;
+      }
+
+      .cls-2, .cls-4 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-3 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-3, .cls-4 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="Layer_2" data-name="Layer 2">
+    <circle class="cls-1" cx="250" cy="250" r="250"/>
+  </g>
+  <g id="Layer_1" data-name="Layer 1">
+    <rect class="cls-4" x="82.51" y="120.6" width="289.55" height="196.89" rx="22.83" ry="22.83"/>
+    <polygon class="cls-3" points="269.92 370.13 184.64 370.13 199.09 317.49 255.47 317.49 269.92 370.13"/>
+    <line class="cls-4" x1="82.51" y1="281.55" x2="372.05" y2="281.55"/>
+    <polygon class="cls-3" points="242.27 243.4 227.59 226.68 235.68 180.07 272.07 213.71 272.07 235.32 242.27 243.4"/>
+    <line class="cls-3" x1="247.45" y1="212.85" x2="256.83" y2="239.45"/>
+    <polyline class="cls-3" points="242.27 243.4 246.16 255.2 276.41 247.64 272.07 235.32"/>
+    <path class="cls-3" d="M122.42,219.45s12.89-50.43,43.7-50.43,19.61,27.94,37.54,27.14,32.02-16.09,32.02-16.09"/>
+  </g>
+  <g id="Layer_3" data-name="Layer 3">
+    <rect class="cls-2" x="288.69" y="186.7" width="128.8" height="208.79" rx="22.83" ry="22.83"/>
+    <line class="cls-3" x1="326.6" y1="377.8" x2="381.87" y2="377.8"/>
+    <rect class="cls-4" x="325.14" y="186.7" width="55.91" height="16.09" rx="5.36" ry="5.36"/>
+    <path class="cls-3" d="M316.08,304.91s8.68-33.98,29.45-33.98,13.21,18.83,25.3,18.29c12.08-.54,21.57-10.84,21.57-10.84"/>
+  </g>
+</svg>
