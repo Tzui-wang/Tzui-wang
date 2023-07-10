@@ -22,7 +22,8 @@ html {
 }
 
 .laptop-width{
-    max-width: 992px;
+    max-width: 1366px;
+    background-color: #ff0000;
 }
 
 /* ---------------nav----------------- */
