@@ -21,6 +21,9 @@ html {
     /*!!!disable mobile double-tap zoom on any element*/
 }
 
+.laptop-width{
+    max-width: 992px;
+}
 
 /* ---------------nav----------------- */
 #top-menu {
@@ -108,7 +111,7 @@ html {
 /* ———————section 1——————— */
 #banner {
     height: 640px;
-    background-color: azure;
+    background-color: #F9F9F9;
     position: relative;
 
 }
@@ -257,30 +260,38 @@ html {
 
 /* ———————section 2——————— */
 #section-kind{
-    height: 340px;
-    background-color: rgb(0, 115, 115);
-    position: relative;
-
+    height: 350px;
+    background-color: #EECA80;
 }
 
 .section-title{
-    font-size: 2em;
+    font-size: 3.3em;
     font-family: 'Shrikhand';
+    text-align: center;
+    padding-top: 50px;
 }
 
 .my-tech-container{
     text-align: center;
-    font-size: 1.2em;
+    font-size: 1.5em;
     font-family: 'Shrikhand';
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 
-
+.my-tech-card{
+    width: 240px;
+    margin-top: 50px;
 }
 
 .my-tech-container img{
     height: 100px;
 }
 
-
+.my-tech-container p{
+    margin-top: 8px;
+}
 
 
 
