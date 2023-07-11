@@ -549,9 +549,10 @@ footer {
     text-align: center;
     font-size: 0.8em;
     padding-bottom: 24px;
+    position: relative;
 }
 
-#footer-social-btn{
+#footer-social-btn {
     display: flex;
     justify-content: center;
 }
@@ -559,6 +560,16 @@ footer {
 #footer-social-btn img {
     height: 32px;
     margin: 16px;
+}
+
+#contact-btn {
+    position: absolute;
+    right: 50px;
+    bottom: 80px;
+    cursor: pointer;
+}
+#contact-btn img{
+    width: 150px;
 }
 
 
