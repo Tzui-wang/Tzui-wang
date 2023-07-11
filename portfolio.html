@@ -1,14 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tzuiwang/Portfolio</title>
     <link rel="stylesheet" href="css/portfolio.css">
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Shrikhand' rel='stylesheet'>
+    <script src="main.js"></script>
 </head>
+
 <body>
-    
+    <!-- desktop -->
+    <header id="top-menu">
+        <a href="index. html"><img id="logo" src="img\logo.png"></a>
+        <nav id="menu-container" s>
+            <a href="index.html" class="menu-option" >Home</a>
+            <a href="portfolio.html" class="menu-option" id="menu-current">Portfolio</a>
+            <a href="#" class="menu-option">Contact</a>
+        </nav>
+        <img id="hamburger-img" onclick="hamburgerClicked ()" src="img\hamburger-full.png">
+    </header>
+
+    <!--mobile-->
+    <div id="menu-verticle">
+        <div id="v-option-container">
+            <a href="index.html" class="v-option">Home</a>
+            <a href="portfolio.html" class="v-option">Portfolio</a>
+            <a href="#" class="v-option">Contact</a>
+        </div>
+    </div>
+
+
+    <!-- banner -->
+    <div class="laptop-width">
+        <section id="banner">
+            <div id="banner-title-container">
+                <p>Portfolio</p>
+            </div>
+    </div>
+
+    <section id="section-content">
+        <div class="laptop-width">
+            <div id="section-content-h">
+                <div class="section-title-center">
+                    <p>Contents</p>
+                </div>
+                <div class="my-content-container">
+                    <div class="my-content-card">
+                        <img src="img/UIUX.svg" alt="">
+                        <p>UIUX Design</p>
+                    </div>
+                    <div class="my-content-card">
+                        <img src="img/GraphicDesign.svg" alt="">
+                        <p>Winning Design</p>
+                    </div>
+                    <div class="my-content-card">
+                        <img src="img/AE.svg" alt="">
+                        <p>AE Design</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="laptop-width">
+        <section id="section-uiux">
+            <div class="portfolio-title-center">
+                <p>UIUX Design</p>
+            </div>
+            <div id="uiux-cover">
+                <div class="uiux-content">
+                    <img src="img/campow-logo.png" class="campow-logo">
+                    <h1>Campow</h1>
+                    <p>租借露營商品APP</p>
+                    <p>安排露營行程不再卡卡！<br>露營區、活動、器材預約租借一次規劃好！</p>
+                    <div class="tool-container">
+                        <p>Tool Used</p>
+                        <img src="img/Figma-tool.png" class="tool-logo" alt="">
+                        <img src="img/AI-tool.png" class="tool-logo" alt="">
+                    </div>
+                </div>
+                <div id="uiux-img">
+                    <img src="img/campow-img.png" alt="">
+                </div>
+            </div>
+
+        </section>
+    </div>
+
 </body>
+
 </html>
