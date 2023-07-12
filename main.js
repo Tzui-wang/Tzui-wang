@@ -15,10 +15,12 @@ function hamburgerClicked() {
     }
 }
 
+/* CV btn */
+function openLinkInNewTab(url) {
+    window.open(url, '_blank');
+  }
 
-
-// var x = document.getElementById('btn1');
-//                 alert(x);
+/* active after the full page */
 window.onload = function () {
     var contactbtn = document.getElementById("to-contact-btn");
 
