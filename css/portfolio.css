@@ -50,8 +50,11 @@
 }
 
 #uiux-cover{
-    height: 900px;
     display: flex;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
 }
 
 .uiux-content h1{
@@ -65,12 +68,32 @@
     color: #5D6145;
 }
 
+.uiux-content p{
+    font-size: 0.8em;
+}
+
 .campow-logo{
     width: 112px;
 }
 
 .tool-logo{
     width: 40px;
+}
+
+#uiux-img{
+    /* adjust image */
+    /* background-color: pink; */
+    width: 500px;
+    position: relative;
+    height: 650px;
+}
+
+#uiux-img img{
+    /* float: right; */
+    height: 656px;
+    position: absolute;
+    left: 50px;
+
 }
 
 
