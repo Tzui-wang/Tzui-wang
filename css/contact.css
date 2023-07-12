@@ -53,7 +53,7 @@ html {
 }
 
 .menu-option {
-    color: #090808;
+    color: #212427;
     font-size: 1.2em;
     opacity: 0.6;
     text-decoration: none;
@@ -106,105 +106,52 @@ html {
     color: #000000;
     font-size: 1.2em;
     padding-bottom: 2em;
+
 }
 
 
-/* ---------------banner----------------- */
-#banner {
-    height: 640px;
-    background-color: #F9F9F9;
+
+
+
+
+
+
+/*-------------footer----------------*/
+footer {
+    text-align: center;
+    font-size: 0.8em;
+    padding-bottom: 24px;
     position: relative;
-
 }
 
-#banner-title-container {
-    width: 100%;
-    height: 100%;
-    font-family: Shrikhand;
-    font-size: 8em;
+#footer-social-btn {
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
-#banner-title-container p{
-    margin: auto;
+#footer-social-btn img {
+    height: 32px;
+    margin: 16px;
+}
+
+/*-------------to contact btn----------------*/
+#to-contact-btn {
+    display: none;
+    position: fixed;
+    bottom: -3px;
+    right: 0px;
+    z-index: 99;
+    cursor: pointer;
+}
+#to-contact-btn img{
+    height: 140px;
+}
+#to-contact-btn img:hover{
+    filter: hue-rotate(-40deg);
 }
 
 
-/* ---------------section1 Contents----------------- */
-#section-content {
-    background-color: #EECA80;
-}
 
-#section-content-h {
-    padding-bottom: 60px;
-}
-
-.section-title-center {
-    font-size: 3.3em;
-    font-family: 'Shrikhand';
-    text-align: center;
-    padding-top: 50px;
-}
-
-.my-content-container {
-    text-align: center;
-    font-size: 1.5em;
-    font-family: 'Shrikhand';
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.my-content-card {
-    width: 240px;
-    margin-top: 50px;
-}
-
-.my-content-container img {
-    height: 100px;
-}
-
-.my-content-container p {
-    margin-top: 8px;
-}
-
-/* ---------------section2 uiux portfolio----------------- */
-
-#section-uiux{
-    height: 2346px;
-}
-.portfolio-title-center {
-    font-size: 4em;
-    font-family: 'Shrikhand';
-    text-align: center;
-    padding-top: 100px;
-}
-
-#uiux-cover{
-    height: 900px;
-    display: flex;
-}
-
-.uiux-content h1{
-    font-size: 4em;
-    font-weight: bolder;
-    color: #586400;
-}
-.uiux-content h2{
-    font-size: 1.5em;
-    font-weight: bold;
-    color: #5D6145;
-}
-
-.campow-logo{
-    width: 112px;
-}
-
-.tool-logo{
-    width: 40px;
-}
 
 
 

@@ -3,7 +3,7 @@
 body {
     font-family: 'Roboto', PingFang, "Noto Sans CJK TC", "Microsoft JhengHei", sans-serif, serif;
     font-size: 16px;
-    color: #090808;
+    color: #212427;
     background-color: #F9F9F9;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     /*!!!remove mobile click highlight*/
@@ -22,7 +22,7 @@ html {
 }
 
 .laptop-width {
-    max-width: 1366px;
+    max-width: 1440px;
     margin: 0 auto;
 }
 
@@ -53,7 +53,7 @@ html {
 }
 
 .menu-option {
-    color: #090808;
+    color: #212427;
     font-size: 1.2em;
     opacity: 0.6;
     text-decoration: none;
@@ -416,129 +416,65 @@ html {
 
 /* ———————section 5 Portfolio——————— */
 
-#portfolio-container {
-    width: 60%;
-    margin: 20px auto;
 
-}
 
-.portfolio-card {
-    height: 160px;
-    /* width: 100%; */
-    display: flex;
-    justify-content: space-between;
-}
-
-.portfolio-card img {
-    height: 100%;
-}
-
-.portfolio-card p {
-    font-size: 2em;
-    font-weight: bold;
-    margin: auto;
-}
-
-.p-card-01 {
-    background-color: #AED9CA;
-    border-radius: 14px 14px 0 0;
-}
-
-.p-card-02 {
-    background-color: #EECA80;
-}
-
-.p-card-03 {
-    background-color: #E9BAAA;
-    border-radius: 0 0 14px 14px;
-}
-
-.portfolio-btn {
+#portfolio-frame {
+    position: relative;
+    margin: 30px auto;
+    width: auto;
+    max-width: 800px;
+    height: auto;
+    max-height: 505px;
+    overflow: hidden;
+    border-radius: 20px;
     display: flex;
     justify-content: center;
-    margin: 40px 0 60px 0;
+    overflow: hidden;
+
 }
 
-.main-btn {
-    background: #E9BAAA;
-    width: 176px;
-    height: 56px;
-    font-size: 1em;
-    line-height: 57px;
-    padding: 0;
-    border: none;
-}
-
-.main-btn span {
+#portfolio-frame img {
+    object-fit: cover;
+    transition: 0.3s;
     position: relative;
-    display: block;
-    width: 100%;
-    height: 100%;
+    height: 516px;
 }
 
-.main-btn:before,
-.main-btn:after {
+#portfolio-frame:hover img {
+    transform: scale(1.1);
+}
+
+.text-area {
+    width: 100%;
+    height: 100%;
     position: absolute;
-    content: "";
-    right: 0;
-    top: 0;
-    background: #E9BAAA;
-    transition: all 0.3s ease;
+    background-color: rgba(255, 255, 255, 0.4);
+    transition: 0.3s;
+    color: #090808;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
 }
 
-.main-btn:before {
-    height: 0%;
-    width: 2px;
+.text-area p {
+    margin: 0;
+    font-size: 2em;
 }
 
-.main-btn:after {
-    width: 0%;
-    height: 2px;
+.text-area:hover {
+    opacity: 0;
 }
 
-.main-btn:hover {
-    background: transparent;
-    box-shadow: none;
-}
-
-.main-btn:hover:before {
-    height: 100%;
-}
-
-.main-btn:hover:after {
-    width: 100%;
-}
-
-.main-btn span:hover {
-    color: #E9BAAA;
-}
-
-.main-btn span:before,
-.main-btn span:after {
-    position: absolute;
-    content: "";
-    left: 0;
-    bottom: 0;
-    background: #E9BAAA;
-    transition: all 0.3s ease;
-}
-
-.main-btn span:before {
-    width: 2px;
-    height: 0%;
-}
-
-.main-btn span:after {
-    width: 0%;
-    height: 2px;
-}
-
-.main-btn span:hover:before {
-    height: 100%;
-}
-
-.main-btn span:hover:after {
-    width: 100%;
+#contact-btn {
+    /* position: absolute;
+    right: 50px;
+    bottom: -50px; */
+    /* margin-left: auto; */
+    height: 150px;
+    cursor: pointer;
+    /* width: 150px; */
 }
 
 
@@ -562,15 +498,25 @@ footer {
     margin: 16px;
 }
 
-#contact-btn {
-    position: absolute;
-    right: 50px;
-    bottom: 80px;
+/*-------------to contact btn----------------*/
+#to-contact-btn {
+    display: none;
+    position: fixed;
+    bottom: -3px;
+    right: 0px;
+    z-index: 99;
     cursor: pointer;
 }
-#contact-btn img{
-    width: 150px;
+#to-contact-btn img{
+    height: 140px;
 }
+#to-contact-btn img:hover{
+    filter: hue-rotate(-40deg);
+}
+
+
+
+
 
 
 /* -----@media !must in bottom!----- */

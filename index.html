@@ -14,11 +14,11 @@
 <body>
     <!-- desktop -->
     <header id="top-menu">
-        <a href="index. html"><img id="logo" src="img\logo.png"></a>
+        <a href="index.html"><img id="logo" src="img\logo.png"></a>
         <nav id="menu-container" s>
             <a href="index.html" class="menu-option" id="menu-current">Home</a>
             <a href="portfolio.html" class="menu-option">Portfolio</a>
-            <a href="#" class="menu-option">Contact</a>
+            <a href="contact.html" class="menu-option">Contact</a>
         </nav>
         <img id="hamburger-img" onclick="hamburgerClicked ()" src="img\hamburger-full.png">
     </header>
@@ -198,23 +198,15 @@
             <div class="section-title-center">
                 <p>Portfolio</p>
             </div>
-            <div id="portfolio-container">
-                <div class="portfolio-card p-card-01">
-                    <img src="img/portfolio-uiux.png" alt="">
-                    <p>UIUX Design</p>
-                </div>
-                <div class="portfolio-card p-card-02">
-                    <p>Winning Design</p>
-                    <img src="img/portfolio-winning.png" alt="">
-                </div>
-                <div class="portfolio-card p-card-03">
-                    <img src="img/portfolio-ae.png" alt="">
-                    <p>AE Design</p>
+
+            <div id="portfolio-frame">
+                <a href="portfolio.html"><img src="img/portfolio-thumbnail.png" alt=""></a>
+                <div class="text-area">
+                    <p>Click Here to View</p>
+                    <p>點擊觀賞</p>
                 </div>
             </div>
-            <div class="portfolio-btn">
-                <button class="custom-btn main-btn"><span>Go to Portfolio</span></button>
-            </div>
+
         </section>
     </div>
 
@@ -224,11 +216,8 @@
             <img src="img/linkedin.png" alt="">
         </div>
         <p>© 2023. All Rights Reserved to Tzui Wang</p>
-        <div id="contact-btn">
-            <img src="img/contact-btn.png" alt="">
-        </div>
     </footer>
-
+    <a href="contact.html" id="to-contact-btn"><img src="img/coner-btn.png" alt=""></a>
 
 
 
