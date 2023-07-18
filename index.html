@@ -9,13 +9,14 @@
     <link rel="stylesheet" href="css/index.css">
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Shrikhand' rel='stylesheet'>
+    <link rel="icon" href="img/tzui-logo.ico">
     <script src="main.js"></script>
 </head>
 
 <body>
     <!-- desktop -->
     <header id="top-menu">
-        <a href="index.html"><img id="logo" src="img\logo.png"></a>
+        <a href="index.html"><img id="logo" src="img/tzui-logo.png"></a>
         <nav id="menu-container" s>
             <a href="index.html" class="menu-option" id="menu-current">Home</a>
             <a href="portfolio.html" class="menu-option">Portfolio</a>
@@ -36,23 +37,29 @@
     <!-- banner -->
     <div class="laptop-width">
         <section id="banner">
-            <div id="banner-title">
-                <p>Hello!<br>I'm Tzui&emsp14;Wang.</p>
-            </div>
-            <div id="banner-text">
-                <p>A UIUX Designer</p>
-            </div>
-            <div>
-                <button onclick="openLinkInNewTab('file/TzuiWang-CV.pdf')" class="custom-btn cv-btn"><span>DOWNLOAD CV</span></button>
-            </div>
-            <div id="banner-link">
-                <p>Check Out My</p>
-                <div id="social-btn-container">
-                    <a href="#"><img src="img/behance.png" alt=""></a>
-                    <a href="#"><img src="img/linkedin.png" alt=""></a>
+            <div id="banner-container"> 
+                <div id="banner-title">
+                    <p>Hello!<br>I'm <span style="display: inline-block;">Tzui&emsp14;Wang.</span></p>
+                </div>
+                <div id="banner-text">
+                    <p>A UIUX Designer</p>
+                </div>
+                <div>
+                    <button onclick="openLinkInNewTab('file/TzuiWang-CV.pdf')" class="custom-btn cv-btn"><span>DOWNLOAD
+                            CV</span></button>
+                </div>
+                <div id="banner-link">
+                    <p>Check Out My</p>
+                    <div id="social-btn-container">
+                        <a href="#"><img src="img/behance.png" alt=""></a>
+                        <a href="#"><img src="img/linkedin.png" alt=""></a>
+                    </div>
                 </div>
             </div>
-            <img src="img/profilePic.png" alt="" id="banner-selfpic">
+            <div id="banner-selfpic">
+                <img src="img/profilePic.png" alt="" >
+            </div>
+
         </section>
     </div>
 
@@ -156,65 +163,67 @@
                                 <p class="bold-text">第五屆金赫獎 - 企業形象設計獎 優選<br>第二屆捷運盃黑客松UI/UX設計賽 - 季軍</p>
                             </aside>
                         </div>
-                        <div class="info-container">
-                            <p class="info-title-text ">Education</p>
-                            <div class="info-text-container">
-                                <aside>
-                                    <p>2022-Now</p>
-                                    <p>赫綵設計學院</p>
-                                </aside>
-                                <aside>
-                                    <p>2018</p>
-                                    <p>美國路易斯克拉克大學-外國語文學系</p>
-                                </aside>
-                                <aside>
-                                    <p>2015-2019</p>
-                                    <p>私立華梵大學-外國語文學系</p>
-                                </aside>
-                                <aside>
-                                    <p>2012-2015</p>
-                                    <p>華東台商子女學校</p>
-                                </aside>
-                            </div>
-                        </div>
-                        <div class="info-container">
-                            <p class="info-title-text">Experiences</p>
-                            <div class="info-text-container">
-                                <aside>
-                                    <p>2019-2021</p>
-                                    <p>及幼文化出版有限公司-行政老師</p>
-                                </aside>
-                                <aside>
-                                    <p>2019</p>
-                                    <p>外文系畢業公演-主持人&編劇</p>
-                                </aside>
-                            </div>
+                    </div>
+                    <div class="info-container">
+                        <p class="info-title-text ">Education</p>
+                        <div class="info-text-container">
+                            <aside>
+                                <p>2022-Now</p>
+                                <p>赫綵設計學院</p>
+                            </aside>
+                            <aside>
+                                <p>2018</p>
+                                <p>美國路易斯克拉克大學-外國語文學系</p>
+                            </aside>
+                            <aside>
+                                <p>2015-2019</p>
+                                <p>私立華梵大學-外國語文學系</p>
+                            </aside>
+                            <aside>
+                                <p>2012-2015</p>
+                                <p>華東台商子女學校</p>
+                            </aside>
                         </div>
                     </div>
+                    <div class="info-container">
+                        <p class="info-title-text">Experiences</p>
+                        <div class="info-text-container">
+                            <aside>
+                                <p>2019-2021</p>
+                                <p>及幼文化出版有限公司-行政老師</p>
+                            </aside>
+                            <aside>
+                                <p>2019</p>
+                                <p>外文系畢業公演-主持人&編劇</p>
+                            </aside>
+                        </div>
+                    </div>
+
                 </div>
             </div>
     </section>
+
     <div class="laptop-width">
         <section id="section-portfolio">
             <div class="section-title-center">
                 <p>Portfolio</p>
             </div>
-
-            <div id="portfolio-frame">
-                <a href="portfolio.html"><img src="img/portfolio-thumbnail.png" alt=""></a>
-                <div class="text-area">
-                    <p>Click Here to View</p>
-                    <p>點擊觀賞</p>
+            <a href="portfolio.html">
+                <div id="portfolio-frame">
+                    <img src="img/portfolio-thumbnail.png" alt="">
+                    <div class="text-area">
+                        <p>Click Here to View</p>
+                        <p>觀看作品集</p>
+                    </div>
                 </div>
-            </div>
-
+            </a>
         </section>
     </div>
 
     <footer>
         <div id="footer-social-btn">
-            <img src="img/behance.png" alt="">
-            <img src="img/linkedin.png" alt="">
+            <a href="#"><img src="img/behance.png" alt=""></a>
+            <a href="#"><img src="img/linkedin.png" alt=""></a>
         </div>
         <p>© 2023. All Rights Reserved to Tzui Wang</p>
     </footer>

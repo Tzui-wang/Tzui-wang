@@ -1,3 +1,24 @@
+/* ---------------banner----------------- */
+
+#banner{
+    /* min-height: 640px;
+    width: 100%; */
+    background-color: #F9F9F9;
+}
+
+#banner-title-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 640px;
+
+}
+
+#banner-title-container p{
+    font-family: 'Shrikhand';
+    font-size: 8em;
+}
 
 /* ---------------section1 Contents----------------- */
 #section-content {
@@ -50,26 +71,37 @@
 }
 
 #uiux-cover{
+    min-height: 600px;
+
     display: flex;
     flex-wrap: wrap-reverse;
     align-items: center;
     justify-content: center;
-    gap: 50px;
+    gap: 20px 160px;
 }
 
 .uiux-content h1{
     font-size: 4em;
     font-weight: bolder;
     color: #586400;
+    margin-top: 32px;
 }
 .uiux-content h2{
     font-size: 1.5em;
     font-weight: bold;
     color: #5D6145;
+    margin-top: 16px;
 }
 
+.uiux-content h3{
+    /* font-size: 1.5em;
+    font-weight: bold;
+    color: #5D6145; */
+    margin-top: 16px;
+}
 .uiux-content p{
     font-size: 0.8em;
+    margin-top: 32px;
 }
 
 .campow-logo{
@@ -78,20 +110,22 @@
 
 .tool-logo{
     width: 40px;
+    margin-top: 16px;
 }
 
 #uiux-img{
     /* adjust image */
     /* background-color: pink; */
-    width: 500px;
-    position: relative;
+    width: 355px;
+    /* position: relative; */
     height: 650px;
+    padding-top: 50px;
 }
 
 #uiux-img img{
     /* float: right; */
-    height: 656px;
-    position: absolute;
+    height: 570px;
+    /* position: absolute; */
     left: 50px;
 
 }
