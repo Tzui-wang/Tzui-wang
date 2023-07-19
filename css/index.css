@@ -329,8 +329,6 @@
 
 /* ———————section 5 Portfolio——————— */
 
-
-
 #portfolio-frame {
     position: relative;
     margin: 30px auto;
@@ -384,13 +382,8 @@
 }
 
 #contact-btn {
-    /* position: absolute;
-    right: 50px;
-    bottom: -50px; */
-    /* margin-left: auto; */
     height: 150px;
     cursor: pointer;
-    /* width: 150px; */
 }
 
 

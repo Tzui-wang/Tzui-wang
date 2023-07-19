@@ -1,12 +1,12 @@
 /* ---------------banner----------------- */
 
-#banner{
+#banner {
     /* min-height: 640px;
     width: 100%; */
     background-color: #F9F9F9;
 }
 
-#banner-title-container{
+#banner-title-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,7 +15,7 @@
 
 }
 
-#banner-title-container p{
+#banner-title-container p {
     font-family: 'Shrikhand';
     font-size: 8em;
 }
@@ -58,11 +58,13 @@
     margin-top: 8px;
 }
 
-/* ---------------section2 uiux portfolio----------------- */
+/* ---------------section2 uiux cover----------------- */
 
-#section-uiux{
-    height: 2346px;
+#section-uiux {
+    /* height: 2346px; */
+    height: auto;
 }
+
 .portfolio-title-center {
     font-size: 4em;
     font-family: 'Shrikhand';
@@ -70,7 +72,7 @@
     padding-top: 100px;
 }
 
-#uiux-cover{
+#uiux-cover {
     min-height: 600px;
 
     display: flex;
@@ -80,67 +82,147 @@
     gap: 20px 160px;
 }
 
-.uiux-content h1{
+.uiux-content h1 {
     font-size: 4em;
     font-weight: bolder;
     color: #586400;
     margin-top: 32px;
 }
-.uiux-content h2{
+
+.uiux-content h2 {
     font-size: 1.5em;
     font-weight: bold;
     color: #5D6145;
     margin-top: 16px;
 }
 
-.uiux-content h3{
-    /* font-size: 1.5em;
-    font-weight: bold;
-    color: #5D6145; */
+.uiux-content h3 {
     margin-top: 16px;
 }
-.uiux-content p{
+
+.uiux-content p {
     font-size: 0.8em;
     margin-top: 32px;
 }
 
-.campow-logo{
+.campow-logo {
     width: 112px;
 }
 
-.tool-logo{
+.tool-logo {
     width: 40px;
     margin-top: 16px;
 }
 
-#uiux-img{
-    /* adjust image */
-    /* background-color: pink; */
+#uiux-img {
     width: 355px;
-    /* position: relative; */
     height: 650px;
     padding-top: 50px;
 }
 
-#uiux-img img{
-    /* float: right; */
+#uiux-img img {
     height: 570px;
-    /* position: absolute; */
-    left: 50px;
+}
 
+/* ---------------section2 uiux overview----------------- */
+#uiux-overview {
+    min-height: 600px;
+    
+    position: relative;
+    margin: 0;
+}
+
+.overview-title{   
+    font-size: 3em;
+    font-weight: bolder;
+    color: #586400;
+    
+    
+}
+.overview-title-mobile{
+    font-size: 3em;
+    font-weight: bolder;
+    color: #586400;
+    display: none;
+    text-align: center;
+    padding: 50px 0;
+
+}
+#overview-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px 100px;
+}
+
+#overview-card-left{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    gap: 50px 0;
+    /* height: 500px; */
+    padding: 0 25px;
+}
+
+#overview-card-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 50px 0;
+    /* height: 600px; */
+    padding: 0 25px;
+}
+
+.overview-card {
+    width: 374px;
+    background-color: #EBF1EB;
+    border-radius: 5px;
+    padding: 24px;
+    box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5),
+        7px 7px 20px 0px rgba(0, 0, 0, .1),
+        4px 4px 5px 0px rgba(0, 0, 0, .1);
+}
+
+.overview-card h1 {
+    font-size: 1.5em;
+    color: #3B665B;
+    margin-bottom: 8px;
+}
+
+.highlighted-text {
+    background-color: #BDECDE;
+}
+
+.tent{
+    display: flex;justify-content: end;
+}
+
+.tent img{
+    width: 200px;
 }
 
 
-
-
-
-
+/* ---------------section2 uiux design process----------------- */
+#design-process-background{
+    background-color: #91B5A9;
+}
+#design-process{
+    height: 100vh;
+}
 
 
 
 
 /* -----@media !must in bottom!----- */
 @media (max-width:900px) {
-    
 
+}
+
+@media(max-width:1058px){
+    .overview-title{
+        display: none;
+    }
+    .overview-title-mobile{
+        display: block;
+    }
 }
