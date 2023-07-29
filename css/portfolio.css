@@ -334,11 +334,6 @@
     width: 32px;
 }
 
-
-
-
-
-
 #uiux-phone-placement {
     width: 80%;
     margin: 0 auto;
@@ -349,8 +344,6 @@
     justify-content: space-around;
     flex-direction: row-reverse;
     gap: 0 10%;
-
-
 }
 
 .uiux-phone {
@@ -363,18 +356,143 @@
     width: 320px;
 }
 
-/* ---------------section3 Winning----------------- */
+/* ---------------section3 Winning-cover----------------- */
 
-#section-winning{
+#section-winning {}
 
+#winning-cover {
+    min-height: 600px;
+
+    display: flex;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 20px 140px;
 }
 
-#winning-title{
+#winning-title {
     font-family: 'Shrikhand';
     font-size: 4em;
     text-align: center;
     margin: 108px 0;
 }
+
+.winning-content {
+    margin: 80px 0;
+}
+
+.winning-content .metro-logo {
+    height: 116px;
+    padding: 0;
+}
+
+.winning-content h1 {
+    font-size: 3em;
+    font-weight: bolder;
+    color: #1F8586;
+    margin: 12px 0;
+}
+
+.winning-content h2 {
+    font-size: 1.5em;
+    font-weight: bolder;
+    color: #1F8586;
+    margin: 12px 0;
+}
+
+.winning-content hr {
+    border: 1px solid #1F8586;
+    width: 100%;
+    margin: 12px 0;
+}
+
+#badge-text {
+    display: flex;
+    align-items: center;
+}
+
+.winning-content h3 {
+    font-size: 2em;
+    font-weight: bolder;
+    color: #1F8586;
+    margin: 12px 0;
+}
+
+.winning-content img {
+    height: 39px;
+    padding-left: 8px;
+}
+
+.winning-content h4 {
+    font-size: 1em;
+    font-weight: bolder;
+    color: #1F8586;
+    margin: 6px 0;
+
+}
+
+#winning-img img {
+    height: 500px;
+}
+
+/* ---------------section3 Winning overview----------------- */
+#winning-overview-background {
+    background-color: #91B5A9;
+}
+
+#winning-overview {
+    display: flex;
+    flex-direction: column;
+}
+
+.winning-overview-title {
+    font-size: 3em;
+    font-weight: bolder;
+    color: #F9F9F9;
+    padding: 50px 0 0 80px;
+}
+
+#winning-overview-card-container {
+    /* width: 80%; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* margin: 0 130px; */
+}
+
+.winning-overview-card {
+    margin: 40px 60px;
+    height: 100%;
+}
+
+.metro-charater01 {
+    width: 374px;
+    text-align: right;
+}
+
+.metro-charater01 img {
+    height: 220px;
+}
+
+
+/* ---------------section3 Winning end page----------------- */
+
+#winning-end{
+    display: flex;
+    justify-content: center;
+}
+
+#winning-end img{
+    width: 100%;
+}
+
+
+
+
+
+
+
 
 
 
@@ -406,11 +524,13 @@
 
     #banner-title-container {
         min-height: 400px;
-    
+
     }
+
     #banner-title-container p {
         font-size: 4em;
     }
+
     /* uiux */
 
     #uiux-phone-placement {
@@ -421,5 +541,21 @@
         width: 180px;
     }
 
+    /* winning */
+    .winning-content{
+        font-size: .7em;
+    }
 
+    .winning-overview-title {
+        text-align: center;
+        padding: 50px 0 30px 0;
+    }
+
+    .winning-overview-card {
+        margin: 20px 0;
+    }
+
+    #winning-end img{
+        width: 800px;
+    }
 }
