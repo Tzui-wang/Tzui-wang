@@ -1,6 +1,93 @@
+/* ---------------banner----------------- */
+#banner {
+    background-color: #F9F9F9;
+}
+
+.laptop-width{
+    position: relative;
+}
+
+.star-yellow{
+    position: absolute;
+    height: 90px;
+    top: 100px;
+    left: 174px;
+}
+
+.star-blue{
+    position: absolute;
+    height: 300px;
+    top: 420px;
+    left: 130px;
+}
+
+.star-pink{
+    position: absolute;
+    height: 70px;
+    top: -15px;
+    right: 100px;
+}
+
+.star-red{
+    position: absolute;
+    height: 88px;
+    top: 460px;
+    left: 570px;
+}
+
+.star-green{
+    position: absolute;
+    height: 60px;
+    top: 200px;
+    left: 400px;
+}
+
+.scroll-down{
+    position: absolute;
+    height: 230px;
+    bottom: 30px;
+    right: 80px;
+}
+
+#banner-title-container {
+    width: 100%;
+    min-height: 640px;
+}
+
+#banner-title-container p {
+    font-family: 'Shrikhand';
+    font-size: 2.25em;
+    position: absolute;
+}
+
+.banner-text01{
+    position: absolute;
+    top: 150px;
+    left: 270px;
+}
+
+.banner-text02{
+    position: absolute;
+
+    top: 270px;
+    left: 105px;
+}
+
+.banner-text03{
+    position: absolute;
+
+    top: 360px;
+    left: 520px;
+}
 
 
 
+#banner-title-container img{
+    height: 540px;
+    position: absolute;
+    top: 70px;
+    right: 200px;
+}
 
 
 
