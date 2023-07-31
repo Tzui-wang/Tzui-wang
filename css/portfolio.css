@@ -4,6 +4,7 @@
     /* min-height: 640px;
     width: 100%; */
     background-color: #F9F9F9;
+    position: relative;
 }
 
 #banner-title-container {
@@ -18,6 +19,48 @@
 #banner-title-container p {
     font-family: 'Shrikhand';
     font-size: 8em;
+}
+
+.star-yellow {
+    position: absolute;
+    height: 90px;
+    top: 30px;
+    left: 174px;
+}
+
+.star-blue {
+    position: absolute;
+    height: 300px;
+    top: 300px;
+    left: 130px;
+}
+
+.star-pink {
+    position: absolute;
+    height: 70px;
+    top: -15px;
+    right: 160px;
+}
+
+.star-red {
+    position: absolute;
+    height: 88px;
+    top: 460px;
+    right: 540px;
+}
+
+.star-green {
+    position: absolute;
+    height: 60px;
+    top: 120px;
+    left: 680px;
+}
+
+.scroll-down {
+    position: absolute;
+    height: 230px;
+    bottom: 30px;
+    right: 80px;
 }
 
 /* ---------------section1 Contents----------------- */
@@ -80,7 +123,9 @@
     align-items: center;
     justify-content: center;
     gap: 20px 160px;
+
 }
+
 
 .uiux-content h1 {
     font-size: 4em;
@@ -118,6 +163,7 @@
     width: 355px;
     height: 650px;
     padding-top: 50px;
+    overflow: hidden;
 }
 
 #uiux-img img {
@@ -127,7 +173,6 @@
 /* ---------------section2 uiux overview----------------- */
 #uiux-overview {
     min-height: 600px;
-
     position: relative;
     margin: 0;
 }
@@ -160,9 +205,7 @@
 #overview-card-left {
     display: flex;
     flex-direction: column;
-    /* justify-content: space-around; */
     gap: 50px 0;
-    /* height: 500px; */
     padding: 0 25px;
 }
 
@@ -171,7 +214,6 @@
     flex-direction: column;
     justify-content: space-around;
     gap: 50px 0;
-    /* height: 600px; */
     padding: 0 25px;
 }
 
@@ -481,6 +523,7 @@
 #winning-end {
     display: flex;
     justify-content: center;
+    overflow: hidden;
 }
 
 #winning-end img {
@@ -682,7 +725,7 @@
     box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5),
         7px 7px 20px 0px rgba(0, 0, 0, .1),
         4px 4px 5px 0px rgba(0, 0, 0, .1);
-        position: relative;
+    position: relative;
 }
 
 .img-frame {
@@ -724,13 +767,13 @@
     outline: 0;
 }
 
-#card-btn-container{
+#card-btn-container {
     display: flex;
     justify-content: center;
-    
+
 }
 
-.project-btn{
+.project-btn {
     background: #EECA80;
     text-decoration: none;
     color: #090808;
@@ -741,18 +784,18 @@
     font-size: 1.25em;
     position: absolute;
     bottom: 24px;
-    
+
 }
 
 .project-btn:hover {
     transition: all 0.3s ease;
     filter: hue-rotate(-60deg);
- 
- }
+
+}
 
 
 
-.project-btn img{
+.project-btn img {
     width: 24px;
     margin-left: 16px;
 
@@ -782,6 +825,12 @@
 }
 
 @media(max-width:1058px) {
+    .star-red{
+        display: none;
+    }
+
+
+
     .overview-title {
         display: none;
     }
@@ -800,6 +849,32 @@
 
     #banner-title-container p {
         font-size: 4em;
+    }
+
+    .star-yellow {
+        position: absolute;
+        top: 70px;
+        left: 90px;
+    }
+
+    .star-blue {
+        display: none;
+    }
+
+    .star-red {
+        display: block;
+        position: absolute;
+        top: 230px;
+    right: 120px;
+    }
+
+
+    .star-pink {
+        display: none;
+    }
+
+    .star-green {
+        display: none;
     }
 
     /* uiux */
@@ -829,4 +904,79 @@
     #winning-end img {
         width: 800px;
     }
+}
+
+
+
+
+
+
+@media (max-width:576px) {
+
+    /* banner */
+
+    .star-yellow {
+        position: absolute;
+        top: 70px;
+        left: 60px;
+    }
+
+    .star-red {
+        
+        position: absolute;
+        top: 230px;
+    right: 60px;
+    }
+
+    .scroll-down {
+        position: absolute;
+        height: 120px;
+        bottom: 20px;
+        right: 40px;
+    }
+
+
+
+
+    /* uiux section */
+
+
+    #overview-card-left {
+        padding: 0;
+    }
+
+    #overview-card-right {
+        padding: 0;
+    }
+
+    .overview-card p {
+        font-size: 0.8em;
+    }
+
+    .overview-title {
+        font-size: 2.5em;
+    }
+
+    .overview-title-mobile {
+        font-size: 2.5em;
+    }
+
+
+
+    .overview-card {
+        width: 304px;
+    }
+
+    .uiux-phone img {
+        width: 146px;
+    }
+
+    .winning-overview-title {
+        font-size: 2.5em;
+    }
+
+    #winning-img img {
+        height: 401px;
+    }
+
 }
