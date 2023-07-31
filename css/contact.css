@@ -3,46 +3,46 @@
     background-color: #F9F9F9;
 }
 
-.laptop-width{
+.laptop-width {
     position: relative;
 }
 
-.star-yellow{
+.star-yellow {
     position: absolute;
     height: 90px;
-    top: 100px;
+    top: 30px;
     left: 174px;
 }
 
-.star-blue{
+.star-blue {
     position: absolute;
     height: 300px;
-    top: 420px;
+    top: 300px;
     left: 130px;
 }
 
-.star-pink{
+.star-pink {
     position: absolute;
     height: 70px;
     top: -15px;
-    right: 100px;
+    left: 1120px;
 }
 
-.star-red{
+.star-red {
     position: absolute;
     height: 88px;
     top: 460px;
-    left: 570px;
+    left: 720px;
 }
 
-.star-green{
+.star-green {
     position: absolute;
     height: 60px;
-    top: 200px;
-    left: 400px;
+    top: 120px;
+    left: 680px;
 }
 
-.scroll-down{
+.scroll-down {
     position: absolute;
     height: 230px;
     bottom: 30px;
@@ -56,46 +56,186 @@
 
 #banner-title-container p {
     font-family: 'Shrikhand';
+    position: absolute;
+}
+
+.banner-text01 {
+    font-size: 3em;
+    position: absolute;
+    top: 80px;
+    left: 240px;
+}
+
+.banner-text02 {
     font-size: 2.25em;
-    position: absolute;
-}
-
-.banner-text01{
-    position: absolute;
-    top: 150px;
-    left: 270px;
-}
-
-.banner-text02{
     position: absolute;
 
     top: 270px;
     left: 105px;
 }
 
-.banner-text03{
+.banner-text03 {
+    font-size: 2.25em;
     position: absolute;
-
     top: 360px;
-    left: 520px;
+    left: 610px;
+}
+
+.banner-text04 {
+    font-size: 2.25em;
+    position: absolute;
+    top: 190px;
+    left: 440px;
+}
+
+.banner-text05 {
+    font-size: 2.25em;
+    position: absolute;
+    top: 460px;
+    left: 340px;
 }
 
 
 
-#banner-title-container img{
+#banner-title-container img {
     height: 540px;
     position: absolute;
     top: 70px;
     right: 200px;
+    filter: opacity(60%)
 }
 
 
 
+/* ---------------section2 Contact----------------- */
+
+#contact-info-background {
+    background-color: #EECA80;
+}
+
+#contact-info-container {
+    min-height: 300px;
+}
+
+#contact-info-container h1 {
+    font-family: 'Shrikhand';
+    font-size: 3em;
+    text-align: center;
+    padding-top: 50px;
+
+}
+
+#contact-info-container h2 {
+    font-family: 'Shrikhand';
+    text-align: center;
+    padding: 0 16px 50px 16px;
+}
+
+.contact-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.contact-card {
+    width: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin: 24px 40px 40px 24px;
+}
+
+
+.contact-card img {
+    width: 64px;
+    padding-right: 16px;
+}
+
+.contact-card p {
+    font-weight: bolder;
+}
+
+
+
+#banner-title-container-mobile{
+    display: none;
+    width: 100%;
+    min-height: 640px;
+    position: relative;
+}
+
+#banner-text-container-mobile{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Shrikhand';
+    margin: 60px;
+}
+
+.banner-text01-mobile{
+    font-size: 3em;
+    z-index: 10;
+    padding-bottom: 24px;
+}
+
+.banner-text02-mobile {
+    font-size: 2em;
+    margin-left: 60px;
+    z-index: 10;
+    padding-bottom: 24px;
+}
+
+.banner-text03-mobile {
+    font-size: 2em;
+    margin-left: 90px;
+    z-index: 10;
+    padding-bottom: 24px;
+}
+
+.banner-text04-mobile {
+    font-size: 2em;
+    margin-left: 120px;
+    z-index: 10;
+    padding-bottom: 24px;
+}
+
+.banner-text05-mobile {
+    font-size: 2em;
+    margin-left: 150px;
+    z-index: 10;
+    padding-bottom: 24px;
+}
+
+
+#banner-title-container-mobile img{
+    position: absolute;
+    top: 10px;
+    right: 60px;
+    height: 540px;
+    filter: opacity(60%)
+}
 
 
 
 /* -----@media !must in bottom!----- */
 @media (max-width:900px) {
+    #banner-title-container{
+display: none;
+    }
+
+    #banner-title-container-mobile{
+        display: block;
+    }
     
 
+}
+
+@media (max-width:768px) {
+    #banner-title-container img {
+        display: none;
+    }
+
+    .scroll-down{
+        display: none;
+    }
 }
