@@ -319,9 +319,9 @@
 }
 
 #about-text {
-
+    font-size: 1.25em;
     padding-bottom: 50px;
-    margin: 0 16px;
+    margin: 16px;
 }
 
 
@@ -581,5 +581,9 @@
 
     .star-yellow-02 {
         display: none;
+    }
+
+    #about-text {
+        font-size: 1.1em;
     }
 }
